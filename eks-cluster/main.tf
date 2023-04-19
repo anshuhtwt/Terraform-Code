@@ -1,5 +1,5 @@
 locals {
-    cluster_name = "anshuhtwt"
+    cluster_name = "eks-terraform"
 }
 
 module "vpc" {
