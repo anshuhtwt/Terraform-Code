@@ -1,11 +1,11 @@
 locals {
-    cluster_name = "eks-terraform"
+    cluster_name = "anshuhtwt"
 }
 
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
-  name = "local.cluster_name"
+  name = "anshuhtwt"
   cidr = "10.0.0.0/16"
 
   azs             = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
